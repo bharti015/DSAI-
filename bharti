@@ -5,7 +5,7 @@ const context = canvas.getContext("2d");
 context.fillStyle = "pink";
 context.fillRect(0, 0, 500, 500);
 
-// Draw a blue line
+// Draw a green line
 context.beginPath();
 context.moveTo(0, 0);
 context.lineTo(500, 500);
@@ -14,7 +14,7 @@ context.lineWidth = 5;
 context.stroke();
 context.closePath();
 
-// Draw a blue line
+// Draw a green line
 context.beginPath();
 context.moveTo(500, 0);
 context.lineTo(0, 500);
@@ -31,7 +31,7 @@ context.fillRect(0, 0, 50, 50);
 context.fillStyle = 'blue';
 context.fillRect(450, 450, 150, 100);
 
-// Draw a purple triangle
+// Draw a red triangle
 context.beginPath();
 context.moveTo(240, 50);
 context.lineTo(138, 150);
